@@ -4,7 +4,7 @@ from PIL import Image
 processor = BlipProcessor.from_pretrained('Salesforce/blip-image-captioning-base')
 model = BlipForConditionalGeneration.from_pretrained('Salesforce/blip-image-captioning-base')
 
-image = Image.open("egpics/spizzy.jpg")
+image = Image.open("path-to-your-image.jpg")
 
 inputs = processor(image, return_tensors='pt')
 
