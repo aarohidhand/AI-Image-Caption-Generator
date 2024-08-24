@@ -1,1 +1,1 @@
-Simple image caption generator using hugging face 🤗
+Simple image caption generator using hugging face (BLIP)🤗
